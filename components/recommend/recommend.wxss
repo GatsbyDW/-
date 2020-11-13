@@ -1,0 +1,28 @@
+.cover_view{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cover_item{
+  width: 50%;
+  border: 3px solid #fff;
+}
+.my_img{
+  width: 100%;
+}
+.month_title{
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.date{
+  color: hotpink;
+  font-weight: 600;
+}
+.month_con{
+  display: flex;
+  flex-wrap: wrap;
+}
+.month_item{
+  width: 33.33%;
+  border: 3px solid #fff;
+}

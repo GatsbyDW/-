@@ -1,0 +1,18 @@
+  <view class="cover_view">
+  <view class="cover_item" wx:for="{{cover}}" wx:key="_id">
+      <image class="my_img" mode="widthFix" src="{{baseUrl+item.thumb}}">
+      </image>
+  </view>
+  </view>
+  <view class="month_view">
+  <view class="month_title">
+      <view class="date">{{month.month_msg}}</view>
+      <view class="title">{{month.title}}</view>
+      <view class="date">更多</view>
+  </view>
+  <view  class="month_con"> 
+  <view class="month_item" wx:for="{{month.list}}" wx:key="_id"> 
+  <image class="my_img"  mode="aspectFill" src="{{baseUrl+item.thumb}}"></image>
+  </view>
+  </view>
+  </view>

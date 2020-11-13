@@ -1,0 +1,10 @@
+<tabs tabs="{{titles}}" bindaaa="receiveIndex"></tabs>
+<!-- <view>0</view>
+<view>1</view> -->
+<!-- <view>{{titleindex}}</view> -->
+<view wx:if="{{titleindex==1}}">1</view>
+<view wx:if="{{titleindex==0}}">
+<recommend></recommend>
+</view>
+<view wx:if="{{titleindex==2}}">2</view>
+<view hidden="{{titleindex!==3}}">3</view>

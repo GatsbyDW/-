@@ -1,0 +1,13 @@
+.tabs_view{
+  display: flex;
+  padding: 20rpx 120rpx;
+  justify-content: space-between;
+}
+.tabs_item{
+  width: 15%;
+  text-align: center;
+} 
+.active{
+  color: hotpink;
+  border-bottom: 2px solid hotpink;
+}
