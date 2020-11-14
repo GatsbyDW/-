@@ -1,3 +1,7 @@
+.recommend{
+  /* 100vh和30px与-之间有空格 */
+  height:calc(100vh - 43px);
+}
 .cover_view{
   display: flex;
   flex-wrap: wrap;
@@ -25,4 +29,13 @@
 .month_item{
   width: 33.33%;
   border: 3px solid #fff;
+}
+.hot_title{
+  color: hotpink;
+ 
+  padding: 10rpx;
+}
+.hot_title text {
+  padding-left: 30rpx;
+  border-left: 3px solid hotpink;
 }

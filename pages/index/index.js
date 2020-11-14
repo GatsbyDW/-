@@ -24,6 +24,7 @@ Page({
   //console.log(e.detail)
   this.setData({
     titleindex:e.detail
+    
   })
  
 }
